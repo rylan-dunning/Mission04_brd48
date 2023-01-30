@@ -1,0 +1,31 @@
+﻿body {
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: aliceblue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.titles {
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+label {
+    font-size: 20px;
+    width: 135px;
+    display: inline-block;
+}
