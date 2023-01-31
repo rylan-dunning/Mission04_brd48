@@ -37,7 +37,7 @@
         gradeChar = "E";
     }
 
-    $("#output").html("Your final grade is: " + finalGrade + " (" + gradeChar + ").");
+    $("#output").html("Your final grade is: " + finalGrade + "% (" + gradeChar + ").");
 
 });
 
