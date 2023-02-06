@@ -12,5 +12,10 @@ namespace Mission04_brd48.Controllers
         {
             return View();
         }
+
+        public IActionResult GradeCalculator()
+        {
+            return View();
+        }
     }
 }

@@ -1,9 +1,8 @@
-﻿/*
-body {
-    margin-left: 30% auto;
-    margin-right: 30% auto;
+﻿body {
     background-color: aliceblue;
-}*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 img {
     display: block;
