@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission04_brd48.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,20 @@ namespace Mission04_brd48.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult GradeCalculator()
         {
             return View();
         }
+
+
+        [HttpPost]
+        public IActionResult GradeCalculator(GradeCalcModel model) //imports the model
+        {
+            return View();
+        }
+
+
     }
+
 }

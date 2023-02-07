@@ -5,23 +5,24 @@
     ViewData["Title"] = "Really Sweet IS 413 Grade Calculator!";
 }
 
+@model GradeCalcModel; <!--Imports the model-->
+
 <h2 class="titles">IS 413 Grade Calculator</h2>
-<form class="box">
+<form class="box" method="post">
     <label>Assignments</label>
-    <input id="assignments" /> <br />
+    <input id="assignments" asp-for="Assignments"/> <br />
     <label>Quizzes</label>
-    <input id="quizzes" /> <br />
+    <input id="quizzes" asp-for="Quizzes"/> <br />
     <label>Group Projects</label>
-    <input id="groupprojects" /> <br />
+    <input id="groupprojects" asp-for="GroupProjects"/> <br />
     <label>INTEX</label>
-    <input id="intex" /> <br />
+    <input id="intex" asp-for="Intex"/> <br />
     <label>Exams</label>
-    <input id="exams" /> <br />
+    <input id="exams" asp-for="Exams"/> <br />
     <label>Extra Credit</label>
-    <input id="extracredit" /> <br />
-    <input id="btnCalc" type="button" value="Calculate" /> <br />
+    <input id="extracredit" asp-for="ExtraCredit"/> <br />
+    <input id="btnCalc" type="submit" value="Calculate" /> <br />
+
+    <div asp-validation-summary="All"></div> <!--Will list all the errors below the form-->
 </form>
 <br />
-<div class="box" id="output">Result:</div>
-
-<script src="~/js/JavaScript.js"></script>

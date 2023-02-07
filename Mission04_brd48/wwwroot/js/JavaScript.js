@@ -37,7 +37,7 @@
         gradeChar = "E";
     }
 
-    Alert("Your final grade is: " + finalGrade + "% (" + gradeChar + ").");
+    alert("Your final grade is: " + finalGrade + "% (" + gradeChar + ")."); //shows up as an alert
 
 });
 
